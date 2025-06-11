@@ -1,0 +1,16 @@
+export async function getMatches() {
+  return [
+    {
+      id: 1,
+      teams: 'Real Madrid vs Barcelona',
+      time: '20:45',
+      odds: { home: 2.1, draw: 3.5, away: 2.8 },
+    },
+    {
+      id: 2,
+      teams: 'Slavia vs Sparta',
+      time: '18:30',
+      odds: { home: 2.0, draw: 3.2, away: 3.1 },
+    },
+  ];
+}
